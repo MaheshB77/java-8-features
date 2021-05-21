@@ -3,6 +3,7 @@ package com.example.demo;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.TreeSet;
 
 /**
  * @author Mahesh
@@ -48,5 +49,25 @@ public class _03LambdaExpWithCollections {
 
 		list.sort((Integer a, Integer b) -> b.compareTo(a));	//	list.sort((a, b) -> b.compareTo(a));
 		System.out.println(list);
+	}
+}
+
+/**
+ * @author Mahesh
+ * TreeSet custom sorting using lambda expression
+ */
+class LambdaExpWithTreeSet {
+	public static void main(String[] args) {
+		TreeSet<Integer> set = new TreeSet<Integer>((a, b) -> {
+			return b.compareTo(a);
+		});
+
+		set.add(2);
+		set.add(4);
+		set.add(1);
+		set.add(8);
+		set.add(0);
+
+		System.out.println(set);
 	}
 }
