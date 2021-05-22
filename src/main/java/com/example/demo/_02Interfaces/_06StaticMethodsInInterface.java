@@ -23,3 +23,8 @@ interface Interf1 {
 class Interf1Impl implements Interf1 {
 
 }
+
+/**
+ * Notes :
+ * 1. Overriding concept not available for static methods in interfaces
+ */
