@@ -1,9 +1,6 @@
 package com.example.demo;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.TreeSet;
+import java.util.*;
 
 /**
  * @author Mahesh
@@ -69,5 +66,25 @@ class LambdaExpWithTreeSet {
 		set.add(0);
 
 		System.out.println(set);
+	}
+}
+
+/**
+ * @author Mahesh
+ * TreeMap custom sorting using lambda expression
+ */
+class LambdaExpWithTreeMap {
+	public static void main(String[] args) {
+		TreeMap<Integer, String> treeMap = new TreeMap<Integer, String>((a, b) -> {
+			return b.compareTo(a);
+		});
+
+		treeMap.put(3, "Mahesh");
+		treeMap.put(9, "Dinesh");
+		treeMap.put(1, "Atul");
+		treeMap.put(11, "Bhumik");
+		treeMap.put(7, "Mangal");
+
+		System.out.println(treeMap);
 	}
 }
