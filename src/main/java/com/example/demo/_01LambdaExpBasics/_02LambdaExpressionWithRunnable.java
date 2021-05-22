@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo._01LambdaExpBasics;
 
 //	Without lambda expression
 //class MyThread implements Runnable {
