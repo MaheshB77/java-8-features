@@ -27,4 +27,15 @@ class Employee {
 		this.name = name;
 		this.age = age;
 	}
+
+	@Override
+	public boolean equals(Object obj) {
+		Employee newEmp = (Employee) obj;
+
+		if (obj instanceof Employee) {
+			return newEmp.age == this.age && newEmp.name.equals(this.name);
+		} else {
+			return false;
+		}
+	}
 }
