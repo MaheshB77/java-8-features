@@ -1,7 +1,6 @@
 package com.example.demo._01LambdaExpBasics;
 
-//	To use lambda function we need to create an
-//	functional interface (interface that contains only one abstract method)
+//	To use lambda function we need to create a functional interface (interface that contains only one abstract method)
 //	functional interface may take any no. of default or static methods
 @FunctionalInterface
 interface _01Lambda {
