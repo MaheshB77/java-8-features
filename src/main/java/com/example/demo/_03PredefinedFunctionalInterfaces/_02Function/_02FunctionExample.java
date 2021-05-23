@@ -39,8 +39,8 @@ public class _02FunctionExample {
 		};
 
 		for (Student student : students) {
-			System.out.println("Grade of " + student.name + " is");
-			System.out.println(gradeChecker.apply(student));
+			String grade = gradeChecker.apply(student);
+			System.out.println("Grade of " + student.name + " is " + grade);
 		}
 	}
 }
