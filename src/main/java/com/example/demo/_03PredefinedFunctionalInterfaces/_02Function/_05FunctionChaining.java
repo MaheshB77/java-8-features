@@ -26,5 +26,18 @@ public class _05FunctionChaining {
 
 		String result = f1.andThen(f2).apply("maheshbansode");
 		System.out.println(result);
+
+		/**
+		 * Difference between 'andThen()' and 'compose()'
+		 * (They are opposite to each other)
+		 */
+		Function<Integer, Integer> add = (num) -> num + num;
+		Function<Integer, Integer> cube = (num) -> num * num * num;
+
+		Integer andThenResult = add.andThen(cube).apply(2);
+		Integer composeResult = add.compose(cube).apply(2);
+
+		System.out.println("andThen() : " + andThenResult);
+		System.out.println("compose() : " + composeResult);
 	}
 }
