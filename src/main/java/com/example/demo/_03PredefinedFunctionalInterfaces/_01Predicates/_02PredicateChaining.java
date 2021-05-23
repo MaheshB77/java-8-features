@@ -10,7 +10,7 @@ import java.util.function.Predicate;
 /**
  * @author Mahesh
  */
-public class _02PredicateJoining {
+public class _02PredicateChaining {
 	public static void main(String[] args) {
 //		Predicate to check given number is greater than 5 or not
 		Predicate<Integer> isGreater = (num) -> (num > 5);
