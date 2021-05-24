@@ -2,10 +2,8 @@ package com.example.demo._06MethodReference;
 
 /**
  * Notes :
- * 1. We can use :: for method reference
- * 2. Rules for method reference :
- * i. Both methods must have same arguments
- * ii. Scope, return type doesn't matter
+ * 1. We can use refer a method to functional interface by using ::
+ * 2. Method which is referencing the functional interface should have same arguments
  */
 
 /**
