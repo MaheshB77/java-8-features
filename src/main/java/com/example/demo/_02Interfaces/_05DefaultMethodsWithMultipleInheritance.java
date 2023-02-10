@@ -13,13 +13,13 @@ public class _05DefaultMethodsWithMultipleInheritance {
 
 interface Left {
 	default void m1() {
-		System.out.println("Left implemantation");
+		System.out.println("Left implementation");
 	}
 }
 
 interface Right {
 	default void m1() {
-		System.out.println("Right implemenation");
+		System.out.println("Right implementation");
 	}
 }
 
