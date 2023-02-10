@@ -4,7 +4,7 @@ package com.example.demo._03PredefinedFunctionalInterfaces._02Function;
  * Notes :
  * 1. Function interface looks like 'interface Function<T, R> {}'
  * 2. Where 'T' is input type and 'R' is output type
- * 3. It abstract method called 'R apply(T t)'
+ * 3. It has abstract method called 'R apply(T t)'
  */
 
 import java.util.function.Function;

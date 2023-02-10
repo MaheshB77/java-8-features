@@ -24,7 +24,7 @@ import java.util.*;
 //		list.add(8);
 //		list.add(0);
 //
-//		list.sort(new MyComparator());	// or Collcetions.sort(list, new MyComparator());
+//		list.sort(new MyComparator());	// or Collections.sort(list, new MyComparator());
 //		System.out.println(list);
 //	}
 //}
@@ -44,7 +44,7 @@ public class _03LambdaExpWithCollections {
 		list.add(8);
 		list.add(0);
 
-		list.sort((Integer a, Integer b) -> b.compareTo(a));    //	list.sort((a, b) -> b.compareTo(a));
+		list.sort((a, b) -> b.compareTo(a));    //	list.sort((a, b) -> b.compareTo(a));
 		System.out.println(list);
 	}
 }

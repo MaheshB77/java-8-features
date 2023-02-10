@@ -25,7 +25,7 @@ public class _04SortedMethod {
 		System.out.println("Default sorting (ascending) : " + sortedList);
 
 //		Customized sorting
-		List<Integer> sortefList2 = list.stream().sorted((num1, num2) -> num2.compareTo(num1)).collect(Collectors.toList());
-		System.out.println("Custom sorting (descending) : " + sortefList2);
+		List<Integer> sortedList2 = list.stream().sorted((num1, num2) -> num2.compareTo(num1)).collect(Collectors.toList());
+		System.out.println("Custom sorting (descending) : " + sortedList2);
 	}
 }

@@ -2,7 +2,7 @@ package com.example.demo._03PredefinedFunctionalInterfaces._03Consumer;
 
 /**
  * Notes :
- * 1. 'Consumer' contains abstract methos called 'accept(T t)'
+ * 1. 'Consumer' contains abstract method called 'accept(T t)'
  * 2. It does not return anything
  * 3. It only accepts data and process that data
  */
