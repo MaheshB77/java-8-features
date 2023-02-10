@@ -20,6 +20,6 @@ public class _06ForEachMethod {
 		 */
 		List<Integer> list = Arrays.asList(5, 3, 9, 1, 8, 4);
 
-		list.stream().forEach((num) -> System.out.println(num));
+		list.forEach(System.out::println);
 	}
 }
